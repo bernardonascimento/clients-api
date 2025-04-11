@@ -2,7 +2,7 @@ const express = require("express");
 const jwt = require("jsonwebtoken");
 const router = express.Router();
 
-const SECRET = "meu_segredo_super_secreto";
+const SECRET = "SECRET_TOKEN";
 
 const USER = {
   email: "admin@gmail.com",
